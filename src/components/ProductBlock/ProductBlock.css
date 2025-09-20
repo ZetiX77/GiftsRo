@@ -1,0 +1,146 @@
+
+.product-block-container {
+  background-color: #6a0dad; 
+  padding: 50px 0;
+  color: white;
+  font-family: Arial, sans-serif; 
+  min-height: 400px;
+}
+
+.content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.product-title {
+  font-size: 3.5rem;
+  font-weight: 300; 
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.7); 
+}
+
+.product-visuals {
+  display: flex;
+  gap: 20px;
+  position: absolute; 
+  top: 100px; 
+  left: 20px; 
+  z-index: 1; 
+}
+
+.visual-item {
+  width: 150px; 
+  height: 350px; 
+  background-color: white;
+  border-radius: 75px / 175px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; 
+  padding: 10px;
+}
+
+.visual-image {
+  width: 100%; 
+  height: auto;
+  object-fit: cover; 
+  transform: scale(0.9); 
+}
+
+.product-price {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 380px; 
+  margin-left: 20px;
+  z-index: 2;
+}
+.product-price strong {
+    font-weight: 700;
+}
+
+.info-section {
+  width: 350px;
+  position: absolute;
+  right: 20px; 
+  top: 150px;
+  z-index: 3;
+}
+
+.info-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.info-description {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-bottom: 30px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.action-buttons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.view-more-btn {
+  background-color: #3cb371; 
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.view-more-btn:hover {
+  background-color: #2e8b57;
+}
+
+@media (max-width: 900px) {
+  .product-visuals {
+    position: static;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .visual-item {
+    width: 100px;
+    height: 250px;
+    border-radius: 50px / 125px;
+  }
+
+  .product-price {
+    margin-top: 0;
+    text-align: center;
+    margin-left: 0;
+  }
+  
+  .info-section {
+    position: static;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .action-buttons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+    .product-visuals {
+        flex-direction: column;
+        align-items: center;
+    }
+    .visual-item {
+        margin-bottom: 10px;
+    }
+}

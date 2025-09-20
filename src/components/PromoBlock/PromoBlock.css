@@ -1,0 +1,80 @@
+.promo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+  background: #333333;
+}
+
+.promo-text {
+  max-width: 500px;
+}
+.promo-text h1 {
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+.promo-text h1 span {
+  color: #7d00b8;
+}
+.promo-text p {
+  color: #ffffff;
+  margin-bottom: 25px;
+  line-height: 25px;
+}
+
+.btn-buy {
+  background: #7d00b8;
+  color: #fff;
+  padding: 12px 26px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.promo-product {
+  position: relative;
+  text-align: center;
+}
+.circle {
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  background: #7d00b8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.circle img {
+  width: 300px;
+  border-radius: 50%;
+}
+.price {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.play-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+.play-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #7d00b8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  cursor: pointer;
+}

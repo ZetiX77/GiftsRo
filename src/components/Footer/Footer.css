@@ -1,0 +1,65 @@
+.giftsro-footer {
+  background-color: #2e2e2e; 
+  color: #e0e0e0;
+  padding: 30px 20px;
+  font-family: Arial, sans-serif;
+  border-top: 3px solid #3cb371; 
+  height: 100px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; 
+}
+
+.footer-brand {
+  margin-bottom: 0;
+}
+
+.footer-tagline {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.brand-name {
+  font-weight: bold;
+  color: white;
+}
+
+.footer-links {
+  display: flex;
+  gap: 30px;
+}
+
+.footer-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #3cb371; 
+}
+
+@media (max-width: 600px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .footer-brand {
+    margin-bottom: 20px;
+  }
+  
+  .footer-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
