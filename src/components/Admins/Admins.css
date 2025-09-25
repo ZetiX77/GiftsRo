@@ -1,0 +1,52 @@
+.admins {
+  padding: 30px;
+  background: #333333;
+}
+
+.admins h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.admins-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.admin-card {
+  background: #6a0dad;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(126, 109, 109, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.admin-card:hover {
+  transform: translateY(-5px);
+}
+
+.admin-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.admin-card h3 {
+  font-size: 16px;
+  margin: 8px 0;
+  color: rgb(255, 255, 255);
+}
+
+.role {
+  color: #00ffaa;
+  font-weight: 500;
+}
+
+.projects {
+  font-size: 14px;
+  color: #ffffff;
+}
